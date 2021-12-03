@@ -25,7 +25,7 @@ dwm_resources () {
 	if [ "$IDENTIFIER" = "unicode" ]; then
 		printf "💻 MEM %s/%s CPU %s STO %s/%s: %s" "$MEMUSED" "$MEMTOT" "$CPU" "$STOUSED" "$STOTOT" "$STOPER"
 	else
-		printf " MEM %s/%s CPU %s STO %s/%s: %s" "$MEMUSED" "$MEMTOT" "$CPU" "$STOUSED" "$STOTOT" "$STOPER"
+		printf " %s/%s CPU %s  %s/%s: %s" "$MEMUSED" "$MEMTOT" "$CPU" "$STOUSED" "$STOTOT" "$STOPER"
 	fi
 	printf "%s\n" "$SEP2"
 }
