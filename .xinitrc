@@ -50,7 +50,7 @@ fi
 
 
 # DWM Status
-~/dwm-bar/dwm_bar.sh &
+~/.dotfiles/dwm-bar/dwm_bar.sh &
 
 # Keyboard Layout
 setxkbmap -variant colemak &
@@ -59,7 +59,7 @@ setxkbmap -variant colemak &
 picom -f &
 
 # Wallpaper
-feh --bg-scale ~/.wallpaper
+feh --bg-scale ~/.dotfiles/.wallpaper
 
 # Loop
 while true; do
